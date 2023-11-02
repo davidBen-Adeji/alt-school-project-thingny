@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul, li {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.container {
+    width: calc(90% - 15px);
+    max-width: 1240px;
+    margin-inline: auto;
+}
